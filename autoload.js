@@ -231,8 +231,8 @@ function Live2d() {
       let modelTexturesId = localStorage.getItem("modelTexturesId");
       if (modelId === null || !!this.#config["isForceUseDefaultConfig"]) {
         // 加载指定模型的指定材质
-        modelId = this.#config["modelId"] || 6; // 模型 ID
-        modelTexturesId = this.#config["modelTexturesId"] || 53; // 材质 ID
+        modelId = this.#config["modelId"] || 5; // 模型 ID
+        modelTexturesId = this.#config["modelTexturesId"] || 0; // 材质 ID
       }
 
       if (this.#config["consoleShowStatu"]) {
