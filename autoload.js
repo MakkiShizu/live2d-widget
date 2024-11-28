@@ -232,7 +232,7 @@ function Live2d() {
       if (modelId === null || !!this.#config["isForceUseDefaultConfig"]) {
         // 加载指定模型的指定材质
         modelId = this.#config["modelId"] || 5; // 模型 ID
-        modelTexturesId = this.#config["modelTexturesId"] || 0; // 材质 ID
+        modelTexturesId = this.#config["modelTexturesId"] || 1; // 材质 ID
       }
 
       if (this.#config["consoleShowStatu"]) {
